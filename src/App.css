@@ -1,0 +1,57 @@
+/* styles.css */
+.App {
+    font-family: monospace;
+    background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/df/0d.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+
+nav {
+    background-color: #333;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: olive;
+    margin-right: 20px;
+    margin-left: 1em;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .home {
+    text-align: center;
+  }
+
+  .show {
+    display: block;
+    text-align: center;
+  }
+
+  .site-name {
+    color: aquamarine;
+    margin-left: 1em;
+    /* margin-bottom: 10px */
+  }
+
+
+  .nav-stuff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    padding-bottom: .5em
+  }
+  .nav-options {
+
+  }
